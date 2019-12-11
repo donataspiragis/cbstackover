@@ -11,5 +11,9 @@
       "symfony/http-foundation": "^5.0",
       "twig/twig": "^3.0"
     }
+  },
+  "require": {
+    "symfony/http-foundation": "^5.0",
+    "twig/twig": "^3.0"
   }
 }

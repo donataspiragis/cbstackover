@@ -1,0 +1,27 @@
+{
+  "name": "cbstackover",
+  "version": "1.0.0",
+  "description": "Stackoverflow project",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack-cli": "^3.3.10",
+    "bootstrap": "^4.4.1",
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donataspiragis/cbstackover.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donataspiragis/cbstackover/issues"
+  },
+  "homepage": "https://github.com/donataspiragis/cbstackover#readme"
+}
