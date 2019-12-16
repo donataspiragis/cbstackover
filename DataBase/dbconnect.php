@@ -1,13 +1,14 @@
     <?php
+    include('../config.php');
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
     Class Connection {
-   
-	private $servername = "localhost";
-	private $username = "guest";
-	private $password = "password";
-	private $dbname = "test";
+   	
+	private $servername = DBHOST;
+	private $username = DBUSER;
+	private $password = DBPWD;
+	private $dbname = DBNAME;
     	protected $con;
      
                 public function openConnection()
